@@ -1,0 +1,25 @@
+ extern int Initialize(String S);
+ extern int InsertChar(char X, int Pos, String S); 
+    /*inserts char X into position Pos of string S. Characters are assigned new positions 
+      as necessary. */
+ extern int InsertString(String S, int Pos, String X); 
+    /*copies String X into position Pos of string S. Characters in S are assigned new 
+      positions as necessary. X is unchanged */
+ extern int CopyString(String X, int Pos, int start, int end, String S); 
+    /*Copies a substring of S into position Pos of string X. The substring is the
+      substring of S from position start to position end inclusive.  S is unchanged. */
+ extern int DeleteChar(int Pos, String S); 
+    /*deletes char in position Pos of string S. Characters are assigned new positions as 
+      necessary. */ 
+ extern int DeleteString(int first, int last, String S); 
+    /*deletes characters from position first to position last (inclusive) of S.  
+      Characters are assigned new positions as necessary. */
+ extern int ReverseString(String S);
+    /*reverses S by changing pointers only (NO new nodes are allocated)*/
+ extern int PrintString(String S);
+    /*prints S as one string of characters followed by a newline. S is unchanged*/
+ extern int GetChar(char *C, int Pos, String S); 
+    /*loads C with the character at position Pos of S. S is unchanged*/
+ extern int Length(int *len, String S);
+    /*loads len with the length of string S. S is unchanged*/
+ 
