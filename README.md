@@ -1,3 +1,2 @@
 # Fun-with-Strings
-
-MyString is a string manipulation program with basic string functions written in c
+Assignment2 is a string manipulation program with basic string functions written in c
